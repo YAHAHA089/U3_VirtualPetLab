@@ -36,7 +36,7 @@ public class VirtualPet {
         this.happinessLevel = happinessLevel;
     }
     public String toString() {
-        return name + "'s \n Information;\n" + " Energy: " + energyLevel + "\n Happiness: " + happinessLevel + "\n Weight: " + weight +"\n Age: " + months + " months \n and " + years + " years";
+        return name + "'s Information;\n" + " Energy: " + energyLevel + "\n Happiness: " + happinessLevel + "\n Weight: " + weight +"\n Age: " + months + " months \n and " + years + " years";
     }
     public void feed(){
         weight++;
